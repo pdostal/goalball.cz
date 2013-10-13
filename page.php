@@ -6,11 +6,7 @@
 	<article>
 		<div class="content"><?php the_content(__('(Whole article...)')); ?></div>
 	</article>
-<?php } } else { ?>
-	<article>
-		<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
-	</article>
-<?php } ?>
+<?php } } ?>
 </section>
 <?php
 	include('footer.php');

@@ -4,7 +4,7 @@
 		<meta charset="<?php bloginfo('charset'); ?>">
 		<title><?php bloginfo('name'); ?></title>
 		<meta name="description" content="<?php bloginfo('description'); ?>">
-		<meta name="author" content="Pavel Dostál">
+		<meta name="author" content="goalball.cz">
 		<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS feed" href="<?php bloginfo('rss2_url'); ?>" />
 		<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/icon.png">
 		<!-- START WP_HEAD --><?php wp_head(); ?><!-- STOP WP_HEAD -->
@@ -16,8 +16,7 @@
 	</head>
 	<body>
 		<header>
-			<h1><a href="<?php bloginfo('wpurl'); ?>"><?php bloginfo('name'); ?></a></h1>
-			<div class="description"><?php bloginfo('description'); ?></div>
+			<h1><a href="<?php //bloginfo('url'); ?>"><img src="<?php header_image(); ?>" alt="Logo" /></a></h1>
             <div class="clear"></div>
 			<nav>
 				<?php wp_nav_menu(array('theme_location' => 'headermenu', 'link_before' => '<div>', 'link_after' => '</div>')); ?>

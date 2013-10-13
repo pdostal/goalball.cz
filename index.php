@@ -19,15 +19,7 @@
 	}
 ?>
 	</ul>
-<?php
-	} else {
-?>
-	<article>
-		<p><?php _e('Žádné články neodpovídají zadaným kritériím.'); ?></p>
-	</article>
-<?php
-	}
-?>
+<?php } ?>
 	<div class="counter">
 <?php
 	$current = get_query_var( 'paged' );

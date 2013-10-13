@@ -1,4 +1,4 @@
-blog.pdostal.cz
+goalball.cz
 ===============
 
-My blog wordpress theme
+Wordpress theme for goallbal.cz

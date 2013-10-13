@@ -1,6 +1,4 @@
-body { width: 100%; padding: 10px 30px 10px 30px; border: none; background-color: #fff; }
-#main { width: 100%; height: 100%; }
-header { height: 30px !important; }
+body { width: 100%; padding: 10px 30px; border: none; background-color: #fff; }
+#main { width: 100%; }
+aside,header>nav { display: none; }
 footer { text-align: left; }
-header>nav,header>.banner { display: none !important; }
-article { border: none; margin: 0px; padding: 0px; }
