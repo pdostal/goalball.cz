@@ -17,13 +17,16 @@ html,body,section,header,div,h1,h2,ul,li { margin: 0px; padding: 0px; overflow: 
 html { font-family: sans-serif, tahoma, verdana, arial; font-size: 13px; overflow: auto; }
 body { width: 1000px; margin: 12px auto; padding: 5px; }
 
-body>header { width: 100%; height: 75px; }
-body>header>h1 { display: block; float: left; width: 250px; }
+body>header { width: 100%; height: 300px; }
+body>header img { display: block; float: left; width: 1000px; height: 250px; }
 
 body>header>nav { height: 36px; }
-body>header>nav li { display: inline-block; height: 36px; float: left; }
-body>header>nav li a { text-decoration: none; color: #fff; text-align: center; }
-body>header>nav li.active a { background: rgba(0, 0, 0, 0.35); }
+body>header>nav li { float: left; }
+body>header>nav li a { margin-left: 5px; background-color: #d9721d; display: inline-block; height: 21px; width: 240px; text-decoration: none; color: #fff; text-align: center; font-size: 18px; padding: 7px 0px; }
+
+body>aside { width: 200px; float: left; }
+body>aside h1 { display: none; }
+body>aside li a { display: inline-block; height: 21px; width: 150px; margin: 5px 5px; background-color: #333; text-decoration: none; text-align: center; color: #fff; font-size: 18px; padding: 7px 0px; }
 
 #main { float: right; width: 800px; }
 

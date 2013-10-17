@@ -1,5 +1,6 @@
 <?php
 	include('header.php');
+	include('sidebar.php');
 ?>
 <section id="main">
 <?php if (have_posts()) { while (have_posts()) { the_post(); ?>
