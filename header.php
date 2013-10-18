@@ -16,7 +16,7 @@
 	</head>
 	<body>
 		<header>
-			<h1><a href="<?php //bloginfo('url'); ?>"><img src="<?php header_image(); ?>" alt="Logo" /></a></h1>
+			<h1><a href="<?php bloginfo('url'); ?>"><img src="<?php header_image(); ?>" alt="Logo" /></a></h1>
             <div class="clear"></div>
 			<nav>
 				<?php wp_nav_menu(array('theme_location' => 'headermenu', 'link_before' => '<div>', 'link_after' => '</div>')); ?>

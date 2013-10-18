@@ -1,5 +1,5 @@
 <?php
-    add_theme_support( 'custom-header', array( 'width' => 1000, 'height' => 250, 'uploads' => true ) );
+    add_theme_support( 'custom-header', array( 'width' => 1000, 'height' => 200, 'uploads' => true ) );
 
     function new_excerpt_more($more) { return '...'; }
     add_filter( 'excerpt_more', 'new_excerpt_more' );
