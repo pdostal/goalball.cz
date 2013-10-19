@@ -37,7 +37,10 @@ body>aside li a { display: inline-block; height: 21px; width: 150px; margin: 0px
 #main>article>header .date { display: block; float: right; margin-right: 15px; }
 #main>article>header h1 { display: block; float: left; }
 #main>article>header a { color: #000; }
+
 #main>article .content { margin-right: 15px; }
+#main>article .content ul,#main>article .content li { overflow: visible; }
+#main>article .content ul { margin-left: 15px; }
 
 footer { width: 100%; text-align: center; margin-top: 25px; }
 
