@@ -1,6 +1,7 @@
 		<div class="clear"></div>
 		<footer>
 			<span>
+				<a href="<?php bloginfo('url'); ?>/wp-admin/">Administrace</a> |
 				Redakční systém <a href="http://wordpress.org/">Wordpress</a>
 				&copy; <a href="mailto:pdostal@pdostal.cz">Pavel Dostál</a>
 			</span>
