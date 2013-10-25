@@ -43,6 +43,11 @@ body>aside .sub-menu li a { display: list-item; height: auto; width: 100%; backg
 #main>article .content ul,#main>article .content li { overflow: visible; }
 #main>article .content ul { margin-left: 15px; }
 
+#main>article .content #calendar { text-align: left; }
+#main>article .content .calendar_date { max-width: 150px; }
+#main>article .content .calendar_category { width: 75px; max-width: 100px; }
+#main>article .content .calendar_event { width: 150px; max-width: 350px; }
+
 footer { width: 100%; text-align: center; margin-top: 25px; }
 
 .clear { clear: both; }

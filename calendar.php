@@ -9,16 +9,12 @@
 <?php if (have_posts()) { while (have_posts()) { the_post(); ?>
 	<article>
 		<div class="content">
-<?
-	fse_print_events(
-		array(
-			'number'   => 10,
-			'before'   => '<ul id="calendar">',
-			'after'    => '</ul>',
-			'template' => '<li><i>{event_startdate}</i> {event_subject}</li>'
-		)
-	);
-?>
+<? fse_print_events(array(
+	'number' => 10,
+	'before' => "<table id=\"calendar\">\n<tr><th class=\"calendar_date\">Datum</th><th class=\"calendar_category\">Kategorie</th><th class=\"calendar_event\">Událost</th></tr>\n",
+	'after' => "</table>\n",
+	'template' => "<tr><td class=\"calendar_date\">{event_startdate; fmt=\"d.m.Y\";}{event_enddate; fmt=\" - d.m.Y\";}</td><td class=\"calendar_category\">{event_categories}</td><td class=\"calendar_event\">{event_subject}</td></tr>\n"
+)); ?>
 		</div>
 	</article>
 <?php } } ?>
