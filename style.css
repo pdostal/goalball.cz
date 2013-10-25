@@ -24,6 +24,9 @@ body>header>nav { height: 35px; }
 body>header>nav li { float: left; }
 body>header>nav li a { margin-left: 5px; background-color: #d9721d; display: inline-block; height: 21px; width: 245px; text-decoration: none; color: #fff; text-align: center; font-size: 18px; padding: 7px 0px; border-radius: 10px; }
 
+body>aside .menu-item ul { display: none; }
+body>aside .current-menu-parent ul,body>aside .active ul { display: list-item; }
+
 body>aside { width: 170px; float: left; }
 body>aside h1 { display: none; }
 body>aside li a { display: inline-block; height: 21px; width: 150px; margin: 0px 5px 10px 5px; background-color: #333; text-decoration: none; text-align: center; color: #fff; font-size: 18px; padding: 7px 0px; border-radius: 10px; }
