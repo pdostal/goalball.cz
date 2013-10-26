@@ -42,11 +42,12 @@ body>aside .sub-menu li a { display: list-item; height: auto; width: 100%; backg
 
 #main>article>header .date { display: block; float: right; margin-right: 15px; }
 #main>article>header h1 { display: block; float: left; }
-#main>article>header a { color: #000; }
+
+#main>article a { color: #000; }
 
 #main>article .content { margin-right: 15px; }
-#main>article .content ul,#main>article .content li { overflow: visible; }
-#main>article .content ul { margin-left: 15px; }
+#main>article .content ul,#main>article .content li,#main>article .content h1 { overflow: visible; }
+#main>article .content ul { padding-left: 15px; }
 
 #main>article .content #calendar { text-align: left; }
 #main>article .content .calendar_date { max-width: 150px; }
