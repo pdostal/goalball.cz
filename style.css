@@ -49,10 +49,12 @@ body>aside .sub-menu li a { display: list-item; height: auto; width: 100%; backg
 #main>article .content ul,#main>article .content li,#main>article .content h1 { overflow: visible; }
 #main>article .content ul { padding-left: 15px; }
 
-#main>article .content #calendar { text-align: left; }
-#main>article .content .calendar_date { max-width: 150px; }
-#main>article .content .calendar_category { width: 75px; max-width: 100px; }
-#main>article .content .calendar_event { width: 150px; max-width: 350px; }
+#main>article .content #calendar { border-collapse: collapse; width: 100%; text-align: left; font-size: 16px; }
+#main>article .content .calendar_header { border: 5px double #000; }
+#main>article .content .calendar_location { width: 150px; }
+#main>article .content .calendar_date { width: 200px; }
+#main>article .content .calendar_category { width: 125px; }
+#main>article .content .calendar_event { width: 325px; }
 
 footer { width: 100%; text-align: center; margin-top: 25px; }
 
