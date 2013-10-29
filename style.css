@@ -49,12 +49,13 @@ body>aside .sub-menu li a { display: list-item; height: auto; width: 100%; backg
 #main>article .content ul,#main>article .content li,#main>article .content h1 { overflow: visible; }
 #main>article .content ul { padding-left: 15px; }
 
-#main>article .contect .alignleft { float: left; }
-#main>article .contect .alignright { float: right; }
+#main>article .content .alignleft { float: left; }
+#main>article .content .alignright { float: right; }
 
 #main>article .content #calendar { border-collapse: collapse; width: 100%; text-align: left; font-size: 16px; }
 #main>article .content thead { border: 5px double #000; }
 #main>article .content tbody { border: 1px solid #000; }
+#main>article .content td { border: 1px solid #000; }
 #main>article .content .calendar_location { width: 150px; }
 #main>article .content .calendar_date { width: 200px; }
 #main>article .content .calendar_category { width: 125px; }
