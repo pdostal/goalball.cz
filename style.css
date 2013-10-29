@@ -53,7 +53,8 @@ body>aside .sub-menu li a { display: list-item; height: auto; width: 100%; backg
 #main>article .contect .alignright { float: right; }
 
 #main>article .content #calendar { border-collapse: collapse; width: 100%; text-align: left; font-size: 16px; }
-#main>article .content .calendar_header { border: 5px double #000; }
+#main>article .content thead { border: 5px double #000; }
+#main>article .content tbody { border: 1px solid #000; }
 #main>article .content .calendar_location { width: 150px; }
 #main>article .content .calendar_date { width: 200px; }
 #main>article .content .calendar_category { width: 125px; }
