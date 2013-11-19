@@ -31,19 +31,16 @@ body>aside .fb-like { margin-left: 45px; }
 
 body>aside { width: 170px; float: left; }
 body>aside h1 { display: none; }
-body>aside li a { display: inline-block; height: 21px; width: 150px; margin: 0px 5px 10px 5px; background-color: #333; text-decoration: none; text-align: center; color: #fff; font-size: 18px; padding: 7px 0px; border-radius: 10px; }
-body>aside .sub-menu li a { display: list-item; height: auto; width: 100%; background-color: #fff; color: #000; text-decoration: none; text-align: left; font-size: 18px; padding: 0px; }
+body>aside .menu li a { display: inline-block; height: 21px; width: 150px; margin: 0px 5px 10px 5px; background-color: #333; text-decoration: none; text-align: center; color: #fff; font-size: 18px; padding: 7px 0px; border-radius: 10px; }
+body>aside .menu .sub-menu li a { display: list-item; height: auto; width: 100%; background-color: #fff; color: #000; text-decoration: none; text-align: left; font-size: 18px; padding: 0px; }
 
 #main { float: right; width: 830px; }
 
 #main>#postsindex li { display: block; margin-bottom: 10px; }
 #main>#postsindex li .date { display: block; float: right; margin-right: 15px; }
-#main>#postsindex li a { color: #000; }
 
 #main>article>header .date { display: block; float: right; margin-right: 15px; }
 #main>article>header h1 { display: block; float: left; }
-
-#main>article a { color: #000; }
 
 #main>article .content { margin-right: 15px; }
 #main>article .content ul,#main>article .content li,#main>article .content h1 { overflow: visible; }
@@ -65,5 +62,7 @@ body>aside .sub-menu li a { display: list-item; height: auto; width: 100%; backg
 #main>.counter li { display: inline-block; }
 
 footer { width: 100%; text-align: center; margin-top: 25px; }
+
+a { color: #000; font-weight: bold; }
 
 .clear { clear: both; }
