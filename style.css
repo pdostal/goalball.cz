@@ -61,6 +61,9 @@ body>aside .sub-menu li a { display: list-item; height: auto; width: 100%; backg
 #main>article .content .calendar_category { width: 125px; }
 #main>article .content .calendar_event { width: 325px; }
 
+#main>.counter ul { text-align: center; }
+#main>.counter li { display: inline-block; }
+
 footer { width: 100%; text-align: center; margin-top: 25px; }
 
 .clear { clear: both; }
