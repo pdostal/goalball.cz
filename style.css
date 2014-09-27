@@ -5,7 +5,7 @@ Description: Vlastní téma.
 Version: 0.1
 Author: Pavel Dostál
 Author URI: http://pdostal.cz/
-Tags: 
+Tags:
 */
 
 /* Begin Typography & Colors */
@@ -21,7 +21,7 @@ body>header { width: 100%; height: 250px; }
 body>header img { display: block; float: left; width: 1000px; height: 200px; }
 
 body>header>nav { height: 35px; }
-body>header>nav li { float: left; }
+body>header>nav li { float: left; display: inline-block; }
 body>header>nav li a { margin-left: 5px; background-color: #d9721d; display: inline-block; height: 21px; width: 195px; text-decoration: none; color: #fff; text-align: center; font-size: 18px; padding: 7px 0px; border-radius: 10px; }
 
 body>aside .menu-item ul { display: none; }
