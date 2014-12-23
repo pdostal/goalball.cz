@@ -19,5 +19,9 @@ Template Name: uvod
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/uvod.css" media="all" />
   </head>
   <body>
+    <?php if (have_posts()) { while (have_posts()) { the_post(); ?>
+    <div class="content"><?php the_content(__('sad')); ?></div>
+    <?php } } ?>
+    <footer><a href="/aktuality">Pokračovat</a></footer>
   </body>
 </html>
